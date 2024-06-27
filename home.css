@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.ctfassets.net/szez98lehkfm/5RPbDihFheFvN1RWhyRfbY/fb286bb568a3d5c093419dee333113e8/MyIC_Article_114191");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 40vh;
+    border-radius: 50%;
+    transition-duration: 0s;
+}
+
+.text-container {
+    background-color: rgba(65, 64, 64, 0.595);
+    border: solid 5px white;
+    animation: 2s ease-out 0s 1 fadeIn;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
+}
+
+.nav-link:hover{
+    font-size: large;
+   
+}
